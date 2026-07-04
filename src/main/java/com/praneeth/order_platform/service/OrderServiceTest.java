@@ -1,4 +1,4 @@
 package com.praneeth.order_platform.service;
 
-public class OrderService {
+public class OrderServiceTest {
 }
