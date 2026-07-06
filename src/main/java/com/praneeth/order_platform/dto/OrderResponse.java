@@ -1,5 +1,6 @@
 package com.praneeth.order_platform.dto;
 
+import com.praneeth.order_platform.enums.OrderStatus;
 import lombok.Builder;
 import lombok.Data;
 
@@ -13,6 +14,6 @@ public class OrderResponse {
     private Long customerId;
     private String productName;
     private Double amount;
-    private String status;
+    private OrderStatus status;
     private LocalDateTime createdAt;
 }

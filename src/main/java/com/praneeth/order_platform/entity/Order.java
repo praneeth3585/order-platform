@@ -25,8 +25,9 @@ public class Order {
 
     private Double amount;
 
+
+
     @Enumerated(EnumType.STRING)
     private OrderStatus status;
-
     private LocalDateTime createdAt;
 }
